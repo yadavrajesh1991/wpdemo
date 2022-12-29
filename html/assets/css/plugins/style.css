@@ -1797,3 +1797,19 @@ input.faq-search:focus::-moz-input-placeholder {
 .table-center {
   display: table-cell;
   vertical-align: middle; }
+
+
+ .horizontal-menu ul li{
+   list-style-type: none;
+   display: inline-block;
+   margin: 10px 28px;
+  }
+.horizontal-menu ul{
+  display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: nowrap;
+}
+.horizontal-menu .navbar-header{
+  display: flex;
+}
